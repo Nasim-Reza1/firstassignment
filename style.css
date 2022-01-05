@@ -41,3 +41,46 @@ body{
     border-radius: 10px;
     text-decoration: none;
 }
+/*the second part*/
+.heading2{
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 30px;
+}
+.elstrate{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 50%;
+    
+
+}
+
+.logo1{
+    background-color: rgb(248, 246, 231);
+    margin: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.logo2{
+    background-color: rgb(220, 250, 220);
+    margin: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+.logo3{
+    background-color: rgba(82, 77, 77, 0.877);
+    color: white;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+}
