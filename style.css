@@ -8,3 +8,36 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.maindiv{
+    display: flex;
+
+    
+}
+.child1{
+    width: 50%;
+    padding: 30px 70px 10px 70px;
+}
+.child2 img{
+    margin-top: 80px;
+    border-radius: 25px;
+}
+.border{
+    font-size: 50px;
+    border-left: rgb(94, 61, 243) 3px solid;
+    padding-left: 10px;
+    
+}
+.color{
+    color: rgb(247, 70, 70);
+}
+.para{
+    font-size: 20px;
+    text-align: justify;
+}
+.input{
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
