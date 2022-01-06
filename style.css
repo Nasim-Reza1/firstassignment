@@ -7,6 +7,8 @@ body{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 .maindiv{
     display: flex;
@@ -43,6 +45,7 @@ body{
     padding: 12px 30px;
     border-radius: 10px;
     text-decoration: none;
+    margin-left: 100px;
 }
 /*the second part*/
 .heading2{
@@ -93,9 +96,41 @@ body{
 .radius{
     border-radius: 30px;
 }
+.borders{
+    font-size: 50px;
+}
+/*payment*/
+.payment{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(238, 252, 224);
+    
+}
+.payment img{
+    height: 200px;
+    width: 330px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.designed-border{
+    background-color: rgb(212, 225, 248);
+    padding: 7px;
+    border-top: 3px solid rgb(111, 0, 255);
+    border-left: 3px solid rgb(2, 255, 2);
+    border-right: 3px solid rgb(255, 226, 4);
+    border-bottom: 3px solid rgba(255, 2, 2, 0.616);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Footer*/
 .last{
     background-color: rgba(0, 0, 0, 0.616);
     color: white;
     text-align: center;
     padding: 10px;
 }
+
